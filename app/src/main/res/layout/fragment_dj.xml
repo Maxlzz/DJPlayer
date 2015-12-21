@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <ImageView
+       android:src="@drawable/dog_and_war"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerInside"
+       android:layout_weight="1">
+
+      <TableRow
+          android:gravity="center|bottom"
+          android:layout_weight="0">
+
+         <Button
+             android:id="@+id/dj_play"
+             android:layout_weight="1."
+             android:layout_height="wrap_content"
+             android:text="@string/dj_play"
+             android:background="@android:color/transparent"
+             android:layout_marginRight="0dp"
+             />
+         <Button
+             android:id="@+id/dj_pause"
+             android:layout_weight="1."
+             android:layout_height="wrap_content"
+             android:text="@string/dj_pause"
+             android:background="@android:color/transparent"
+             android:layout_marginRight="0dp"/>
+         <Button
+             android:id="@+id/dj_stop"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:text="@string/dj_stop"
+             android:background="@android:color/transparent"
+             android:layout_width="wrap_content"/>
+      </TableRow>
+   </ImageView>
+</TableLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DJPlayer</string>
+    <string name="dj_play">Play</string>
+    <string name="dj_stop">Stop</string>
+    <string name="dj_description">The dog is sodlier for peace</string>
+    <string name="dj_pause">Pause</string>
+    
+    
+</resources>

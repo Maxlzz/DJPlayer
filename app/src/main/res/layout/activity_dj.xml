@@ -1,0 +1,8 @@
+<Fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dj_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name = "com.max.djplayer.dj_fragment">
+
+</Fragment>
